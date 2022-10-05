@@ -41,7 +41,7 @@ export function ButtonCool() {
 const ricks = () =>
   client.query(
     `{
-      characters(filter: {name: "rick"}) {
+      characters(filter: {name: "rick"},page:4) {
         results {
           name
           image
