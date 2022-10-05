@@ -1,0 +1,28 @@
+{
+  "imports": {
+    "~/": "./",
+    "std/": "https://deno.land/std@0.155.0/",
+
+    "aleph/": "https://deno.land/x/aleph@1.0.0-beta.19/",
+    "aleph/runtime/core/route": "https://deno.land/x/aleph@1.0.0-beta.19/runtime/core/route.ts",
+    "aleph/server/": "https://deno.land/x/aleph@1.0.0-beta.19/server/",
+
+    "@julr/unocss-preset-flowbite": "https://esm.sh/v96/@julr/unocss-preset-flowbite@0.0.1",
+    "@unocss/core": "https://esm.sh/v96/@unocss/core@0.45.26",
+    "@unocss/preset-typography": "https://esm.sh/v96/@unocss/preset-typography@0.45.26",
+    "@unocss/preset-uno": "https://esm.sh/v96/@unocss/preset-uno@0.45.26",
+    "@unocss/preset-web-fonts": "https://esm.sh/v96/@unocss/preset-web-fonts@0.45.26",
+
+    "@urql/core": "https://esm.sh/v96/@urql/core@3.0.3",
+
+    "@babel": "https://esm.sh/@babel/standalone@7.19.2",
+    "babel-preset-solid": "https://esm.sh/v96/babel-preset-solid@1.5.7",
+
+    "solid-js": "https://esm.sh/solid-js@1.5.7",
+    "solid-js/web": "https://esm.sh/solid-js@1.5.7/web",
+    "solid-refresh": "https://esm.sh/solid-refresh@0.4.1",
+
+    "solid-refresh/babel": "https://esm.sh/solid-refresh@0.4.1/babel",
+    "solid-js/jsx-runtime": "https://esm.sh/v96/solid-js/jsx-runtime"
+  }
+}

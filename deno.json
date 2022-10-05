@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "dom.asynciterable",
+      "dom.extras",
+      "deno.ns"
+    ],
+    "types": [
+      "https://deno.land/x/aleph@1.0.0-beta.19/types.d.ts"
+    ],
+    "jsx": "react-jsx",
+    "jsxImportSource": "solid-js"
+  },
+  "importMap": "import_map.json",
+  "tasks": {
+    "start": "deno run -A   dev.ts",
+    "prod": "deno run -A server.ts",
+
+    "esm:add": "deno run -A https://esm.sh add",
+    "esm:update": "deno run -A https://esm.sh update",
+    "esm:remove": "deno run -A https://esm.sh remove"
+  }
+}
