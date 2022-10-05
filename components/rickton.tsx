@@ -13,7 +13,7 @@ export const Rickton = () => {
 export const ARick = ({ data }) => {
   return (
     <>
-      <div class="flex flex-wrap items-center mx-auto">
+      <div class="flex flex-wrap items-center justify-center">
         <For each={data}>
           {(x) => (
             <>

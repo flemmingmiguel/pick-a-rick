@@ -28,9 +28,12 @@ import { ARick, Rickton } from "../components/rickton.tsx";
 export function ButtonCool() {
   return (
     <>
-      <div class="rounded-full bg-white text-gray-400 font-semibold px-4 py-2">
-        is this a button
-      </div>
+      <button
+        onclick={() => setCount(count() + 1)}
+        class="rounded-full bg-white text-gray-400 font-semibold px-4 py-2"
+      >
+        is this a button????
+      </button>
     </>
   );
 }
@@ -67,9 +70,9 @@ const fgh = await ricks();
 //     </>
 //   );
 // };
-export default function App() {
-  const [count, setCount] = createSignal(0);
+const [count, setCount] = createSignal(0);
 
+export default function App() {
   return (
     <>
       <div
